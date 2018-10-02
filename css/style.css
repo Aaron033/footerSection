@@ -2,7 +2,7 @@
     border-radius: 0px !important; 
 }
 
-,btn
+.btn
 {
     border-radius: 0px !important; 
     
@@ -24,7 +24,7 @@ padding-top: 90px;
     
 }
 
-.social-icon .fa{
+.social-icon .fab{
     font-size: 30px; 
     color: deepskyblue; 
     height: 80px; 
@@ -37,3 +37,6 @@ padding-top: 90px;
     
 }
         
+.social-icon  a:hover .fab{
+    border: 10px solid white; 
+}
