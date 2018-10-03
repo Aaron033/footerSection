@@ -9,7 +9,7 @@
     }
 
 .footer{
-    background-image: url(https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7d106299bf1c34b2f367f2280c67a80a&auto=format&fit=crop&w=1050&q=80); 
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7d106299bf1c34b2f367f2280c67a80a&auto=format&fit=crop&w=1050&q=80); 
     background-size:  cover; 
     
     background-attachment: fixed; 
@@ -46,4 +46,8 @@ padding-top: 90px;
     border-bottom: 20px solid white;
     margin: 0 auto; 
     margin-top: 20px; 
+}
+
+.white{
+    color: white; 
 }
